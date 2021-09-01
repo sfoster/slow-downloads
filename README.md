@@ -1,6 +1,8 @@
 slow-downloads
 ==============
 
+A utility (HTTP server) to deliver a payload over a given amount of time. 
+
 Install
 -------
 

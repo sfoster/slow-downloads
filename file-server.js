@@ -25,7 +25,7 @@ function throttledResponse(request, response, options = {}) {
   if (!isNaN(len) && unit) {
     switch (unit.toLowerCase()) {
       case "m":
-        throttleRate = Math.ceil(PayloadSize / 60 * len);
+        throttleRate = Math.ceil(PayloadSize / (60 * len));
         break;
       case "s":
         throttleRate = Math.ceil(PayloadSize / len);
