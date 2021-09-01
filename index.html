@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang=en-us>
+  <meta charset=utf-8>
+  <body>
+    <ul>
+        <li><a href="/download.zip">download.zip (fixed size, octet-stream)</a></li>
+        <li><a href="/download.zip?time=10m">10 minute download (fixed size, octet-stream)</a></li>
+        <li><a href="/download.zip?time=1m">1 minute download (fixed size, octet-stream)</a></li>
+        <li><a href="/download.zip?time=30s">30 second download (fixed size, octet-stream)</a></li>
+        <li><a href="/download.zip?time=10s">10 second download (fixed size, octet-stream)</a></li>
+        <li><a href="/indeterminate.zip?time=30s">30s indeterminate (unknown size, octet-stream)</a></li>
+        <li><a href="/indeterminate.zip?time=10m">Slow (10m) indeterminate (unknown size, octet-stream)</a></li>
+    </ul>
+
+    <ul>
+        <li><a href="/unsafe">unsafe download? (indeterminate, octet-stream)</a></li>
+    </ul>
+  </body>
+</html>
