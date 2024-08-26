@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node file-server.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "stream-throttle": "^0.1.3"
